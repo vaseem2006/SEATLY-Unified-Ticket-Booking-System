@@ -1,0 +1,103 @@
+SOFTWARE REQUIREMENTS
+======================
+
+2.1 Hardware Requirements:
+
+• A PC with the following or greater specifications:
+
+  o Intel Core i3 or higher
+  o 8 GB RAM
+  o 500 GB Hard Drive
+
+• A stable internet connection (2Mbps or higher)
+
+2.2 Software Requirements:
+
+• Operating System: Windows 10/11 or higher
+
+• Front End Technologies:
+  o HTML5
+  o CSS3
+  o JavaScript (ES6+)
+
+• Integrated Development Environment (IDE):
+  o Visual Studio Code (VS Code)
+  o Recommended Extensions:
+    - Python
+    - HTML CSS Support
+    - JavaScript (ES6) code snippets
+    - Live Server (optional)
+
+• Back End Technologies:
+  o Python 3.8 or higher
+  o FastAPI (Web Framework)
+  o Uvicorn (ASGI Server)
+  o Pydantic (Data Validation)
+
+• Web Server:
+  o Uvicorn Development Server
+  o FastAPI built-in server
+
+• Database Server:
+  o Currently using in-memory storage
+  o Optional: MongoDB with PyMongo or Mongoose ODM
+  o Optional: PostgreSQL with SQLAlchemy ORM
+  o Optional: SQLite for lightweight database needs
+
+• Additional Python Packages:
+  o fastapi==0.104.1
+  o uvicorn[standard]==0.24.0
+  o python-multipart==0.0.6
+
+• Web Browser Requirements:
+  o Google Chrome (latest version) - Recommended
+  o Mozilla Firefox (latest version)
+  o Microsoft Edge (latest version)
+  o Safari (for macOS users)
+
+• External APIs and Services:
+  o Google Fonts API (for typography)
+  o Unsplash API (for background images)
+  o IMDb (for movie ratings and links)
+
+2.3 Development Tools:
+
+• Version Control:
+  o Git (optional, for version control)
+
+• Package Manager:
+  o pip (Python Package Installer)
+
+• Command Line Interface:
+  o Windows PowerShell
+  o Command Prompt (CMD)
+
+2.4 System Configuration:
+
+• Python Environment:
+  o Python 3.8+ installed and added to PATH
+  o Virtual environment (venv) recommended for isolation
+
+• Port Configuration:
+  o Default port: 8000
+  o Ensure port 8000 is available and not blocked by firewall
+
+• File Structure:
+  o Project root directory
+  o /static folder for CSS, JavaScript, and assets
+  o /templates folder for HTML files
+  o main.py as the main application file
+  o requirements.txt for Python dependencies
+
+2.5 Network Requirements:
+
+• Local Development:
+  o Localhost access (127.0.0.1:8000)
+  o No external network required for basic functionality
+
+• Production Deployment (Optional):
+  o Domain name or IP address
+  o SSL certificate for HTTPS
+  o Web hosting service or cloud platform
+  o Database hosting service (if using external database)
+
